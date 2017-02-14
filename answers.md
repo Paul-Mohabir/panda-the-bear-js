@@ -37,3 +37,10 @@ $('#message').attr('placeholder', 'State your Business')
 12 $("form #email").attr("value", "dr.zoidberg");
 
 13 $('form #submit').attr('value', 'En-Gaurde')
+
+SECTION2
+
+Cloning Pikachu
+$('#right-image img').clone().insertAfter('form')
+
+var listItem = document.createElement('li'); var leftSpan = document.createElement('span'); var lastUpdated = document.createTextNode('Page last updated on'); var rightSpan = document.createElement('span'); var date = document.createTextNode(Date()); leftSpan.appendChild(lastUpdated); rightSpan.appendChild(date); listItem.appendChild(leftSpan); listItem.appendChild(rightSpan);
