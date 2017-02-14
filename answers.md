@@ -6,3 +6,4 @@ $('h3, info-title').text('My Learnin')
 
 $('#employment h3.info-title').text('What I boss at')
 $("#time-travel").parent().remove()
+$('body').css( "background-color", "purple" );
