@@ -43,4 +43,6 @@ SECTION2
 Cloning Pikachu
 $('#right-image img').clone().insertAfter('form')
 
+for (var i=0; i<10; i++) { $('#right-image img').clone().insertAfter('form') }
+
 var listItem = document.createElement('li'); var leftSpan = document.createElement('span'); var lastUpdated = document.createTextNode('Page last updated on'); var rightSpan = document.createElement('span'); var date = document.createTextNode(Date()); leftSpan.appendChild(lastUpdated); rightSpan.appendChild(date); listItem.appendChild(leftSpan); listItem.appendChild(rightSpan);
